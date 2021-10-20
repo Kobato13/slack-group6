@@ -172,6 +172,10 @@ const SearchBoxContainer = styled.div`
     align-items: center;
     width: 100%;
   }
+
+  @media(max-width: 1023px) {
+    left: 15%;
+  } 
 `;
 
 const HeaderSearch = styled.div`
