@@ -1,0 +1,27 @@
+.sidebar-channels {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 22px 0 0;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+  z-index: 100;
+}
+
+@media (max-width: 1023px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    transition: 350ms;
+  }
+}
