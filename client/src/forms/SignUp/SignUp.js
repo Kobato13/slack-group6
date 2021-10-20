@@ -28,7 +28,7 @@ const SignUp = () => {
       .then(() => {
         history.push('/')
       })
-      .catch(err => setError(`Username Already taken`))
+      .catch(err => setError(`Invalid Input.`))
   }
 
   return (

@@ -39,6 +39,10 @@ function AddMember({
   const remove = (id) => {
     const list = click.filter(user => user.id !== id)
     setClick(list);
+    //add array to chatHeader
+    if (handleAddMemberArray !== null) {
+      handleAddMemberArray(list)
+    }
   }
 
   //selected user
